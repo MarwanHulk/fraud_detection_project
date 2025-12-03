@@ -48,4 +48,4 @@ This notebook handles missing values, imputes medians, scales data, splits into 
 File: notebooks/03_evaluation.ipynb
 This notebook loads the saved model and validation data, generates the ROC curve, Precision-Recall curve, confusion matrix, performs threshold tuning, feature importance calculations, and false positive/false negative analysis.
 	5.	Final Predictions
-The best model is retrained on the full dataset and used to generate provider_fraud_predictions.csv, containing fraud probability for each test provider.
+The best model is GradientBoostingClassifier(random_state=42) and is retrained on the full dataset and used to generate provider_fraud_predictions.csv, containing fraud probability for each test provider.
